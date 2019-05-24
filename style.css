@@ -1,0 +1,184 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+*{font-family: 'Roboto', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+}
+
+
+.topnav {
+    position: sticky;
+    overflow: hidden;
+	background-color: rgb(241, 241, 241);
+	
+    top: 0;
+    
+}
+
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a.active{
+        background: #333333;
+        color: #fff;
+    
+}
+
+
+.topnav a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+
+.column {
+    float: left;
+	padding: 10px;
+	
+}
+
+
+.column.left {
+
+	width: 50%;
+   
+}
+.column.right {
+	width: 50%;
+	
+}
+.contact-inform-text{
+
+	text-align: center;
+	font-size: 17px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+
+.row{
+    margin: 10px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 400px) {
+    .column.left, .column.right {
+        width: 100%
+    }
+}
+
+h3.h3-w3l,
+h2.h3-w3l {
+    text-align: center;
+    font-size: 3em;
+    color: #000;
+    margin-bottom: 1.2em;
+    text-transform: capitalize;
+}
+
+
+	h3.h3-w3l {
+		color: #000000;
+		font-weight: 500;
+	}
+
+
+
+
+.map iframe {
+    width: 100%;
+    min-height: 362px;
+    border: 10px solid rgba(6, 6, 7, 0.616);
+}
+.map iframe {
+	min-height: 450px;
+}
+
+
+.about{
+
+	padding: 10px;
+}
+.imageManager {
+	float: left;
+    width: 25%;
+    padding: 50px;
+
+
+	
+}
+.imageManager img{
+	border-radius: 15px 5px 5px 15px;
+    
+}
+
+.about-us-text{
+	float: right;
+	width: 75%;
+	padding: 50px;
+    color: #fff;
+	border-radius:10px 10px 10px 10px;
+	border: 3px solid rgba(6, 6, 7, 0.123);
+	background-color: rgb(48, 54, 59);
+}
+.phoneEmailBox p:hover {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+footer {
+   
+    background-color: rgb(255, 254, 254);
+    text-align: center;
+    
+    border-radius: 30px 30px 30px 30px;
+}
+
+li{
+    list-style-type: none;
+}
+.mySlides {
+   
+    display: none;
+    border: 7px solid rgb(107, 107, 107);
+    border-radius: 30px 30px 30px 30px;
+}
+.mySlides img{
+    width:967px;
+    height: 495px;
+    border-radius: 15px 15px 15px 15px;
+
+}
+.mySlides div{
+    border-radius: 15px 15px 15px 15px;
+}
+.container-slides{
+    padding: 10px;
+}
+
+.main-about-us{
+    text-align: center;
+    padding: 5%;
+}
+.content-page{
+    text-align: center;
+    padding: 5%;
+}

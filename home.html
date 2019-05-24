@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="shortcut icon" href="images/logo_NOcolor.png" type="image/png">
+    <title>Vakansiia-tur</title>
+    <meta name="description" content="Praca za granicą " />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Vakansiia-tur">
+    <meta property="og:title" content="Praca za granicą ">
+    <meta property="og:description" content="Praca za granicą w roznych ktajach">
+    <meta property="og:locale" content="ua_UA">
+    <meta property="og:image" content="om/thumbnail.jpg">
+    <meta property="og:image:width" content="968">
+    <meta property="og:image:height" content="504">
+    
+    <link href="style.css" rel="stylesheet"  type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="script.js"></script>
+   
+</head>
+<header>
+          <div class="topnav">
+                    <img src="BIGlogo_NOCOLOR.png" height="43px" width="150px" style="margin-left: 1%;" />
+                    <a href="information.html">Useful information</a>
+                    <a  href="contact.html">Contacts</a>
+                  <a href="index.html">About us</a>
+                  <a class="active">Home</a>
+                </div>
+                 
+
+
+</header>
+
+<body >
+    
+<div class="container-slides">
+<div class="w3-content w3-display-container">
+
+     <div class="w3-display-container mySlides">
+       <img src="slide1.jpg" >
+       <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+          Work in Poland 
+       </div>
+     </div>
+     
+     <div class="w3-display-container mySlides">
+       <img src="slide2.jpg" >
+       <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+          Work in Czech Republic
+       </div>
+     </div>
+     
+     <div class="w3-display-container mySlides">
+       <img src="slide3.jpg" >
+       <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+          Work in Slovakia
+       </div>
+     </div>
+     
+     
+     
+     <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+     <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    </div>
+  <div class="main-about-us">
+    <div class="main-text-about-us">
+      <h2>Who are we and what do we do?</h2>
+      <p>Our Agency has been working since 2014. The main criteria for us are honesty and decency.
+         We help people find decent, high-paying jobs. You can always contact us for advice on your question on the topic:
+          employment abroad. We provide true information and help people find a job abroad. Always listen to You and give advice for further employment. 
+        We work with trusted employers in Poland, the Czech Republic, Slovakia and other EU countries.</p>
+
+        <h4>Our specialist:</h4>
+
+        <p><strong>Victoria Rudneva (senior Manager) T/viber: +38(096)426 91 53</strong></p>
+        
+        <p><strong>Inna (customer service Manager) T/viber: +38(098) 98 110 87</strong></p>
+        
+        <p><strong> Konstantin (Manager) t/viber:+38(095)407 52 32</strong></p>
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+     var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 4000); 
+}
+</script>
+
+     
+</body>
+
+
+
+
+<footer class="
+    main-footer">
+<div class="footer-linklist">
+     <ul class="social">
+<li>
+  <a class="social-link social-link-facebook" title="Facebook" href="https://www.facebook.com/groups/vakansiia.tur/?ref=bookmarks" target="_blank">
+    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path fill="currentColor" fill-rule="evenodd" d="M12.82 24H1.324A1.325 1.325 0 0 1 0 22.675V1.325C0 .593.593 0 1.325 0h21.35C23.407 0 24 .593 24 1.325v21.35c0 .732-.593 1.325-1.325 1.325H16.56v-9.294h3.12l.466-3.622H16.56V8.77c0-1.048.29-1.763 1.795-1.763h1.918v-3.24c-.332-.045-1.47-.143-2.795-.143-2.766 0-4.659 1.688-4.659 4.788v2.67H9.692v3.623h3.127V24z"></path>
+</svg>
+ Facebook
+  </a>
+</li>
+
+<li>
+  <a class="social-link social-link-instagram" title="Instagram" href="https://instagram.com/vakansiiatur4?igshid=t9a2121picdl" target="_blank">
+    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path fill="currentColor" fill-rule="evenodd" d="M6.89 2.234h10.22c2.578 0 4.668 2.1 4.668 4.692v10.148c0 2.592-2.09 4.692-4.667 4.692H6.889c-2.577 0-4.667-2.1-4.667-4.692V6.926c0-2.592 2.09-4.692 4.667-4.692zM0 17.074C0 20.9 3.085 24 6.89 24h10.22c3.806 0 6.89-3.1 6.89-6.926V6.926C24 3.1 20.915 0 17.11 0H6.89C3.083 0 0 3.1 0 6.926v10.148zm18.35-4.978c0-3.508-2.83-6.351-6.318-6.351-3.49 0-6.318 2.843-6.318 6.35 0 3.508 2.829 6.352 6.318 6.352 3.489 0 6.317-2.844 6.317-6.351zm-10.413 0c0-2.274 1.833-4.117 4.095-4.117 2.261 0 4.095 1.843 4.095 4.117s-1.834 4.117-4.095 4.117c-2.262 0-4.095-1.843-4.095-4.117zm10.476-4.979c.841 0 1.524-.686 1.524-1.532s-.683-1.532-1.524-1.532c-.842 0-1.524.686-1.524 1.532s.682 1.532 1.524 1.532z"></path>
+</svg>
+ Instagram
+  </a>
+</li>
+
+</footer>
+</html>
